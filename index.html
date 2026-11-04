@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeremy Josh </> Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Jeremy <span>Josh.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm Jeremy Josh Parra</h1>
+            <h2>Vibe Coder</h2>
+            <p>
+                Where clean syntax meets digital atmosphere. I craft
+                beautiful, high-performance web experiences and
+                interactive applications designed not just to function
+                flawlessly, but to look, feel, and flow exactly right.
+            </p>
+            <div class="hero-buttons">
+                <a href="resume.pdf" class="btn">↓ &nbsp; Resume</a>
+                <a href="#contact" class="btn btn-outline">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+
+            <div class="orbit orbit-a"></div>
+            <div class="orbit orbit-b"></div>
+            <div class="orbit orbit-c"></div>
+
+            <div class="profile">
+            <img src="profile.png.jfif">
+            </div>
+        </div>
+
+    </section>
+
+
+<section class="about section" id="about">
+
+    <h2 class="section-title">About <span>Me</span></h2>
+
+    <div class="about-container">
+
+        <!-- LEFT: PERSONAL INFORMATION -->
+        <div class="about-box personal-info">
+            <h3>Personal <span>Information</span></h3>
+
+            <p><strong>Full Name:</strong><br>Jeremy Josh A. Parra</p>
+
+            <p><strong>Address:</strong><br>Sumaliring, Siaton, Negros Oriental</p>
+
+            <p><strong>Age:</strong><br>19</p>
+
+            <p><strong>Course:</strong><br>BS Information Technology</p>
+
+            <p><strong>Hobbies:</strong><br>Playing online games, Listening to Music, Watching Movies, and Coding</p>
+        </div>
+
+
+        <!-- CENTER: ABOUT ME DESCRIPTION -->
+        <div class="about-box about-description">
+            <h3>Who <span>I Am</span></h3>
+
+            <p>
+                Hi! I'm Jeremy Josh, a BSIT student who enjoys
+                exploring technology, learning new things, and
+                improving my programming skills. I also enjoy
+                playing online games, listening to music, and
+                discovering new ways to express my creativity.
+                I'm still learning, but I always try my best to
+                grow and develop my skills.
+            </p>
+
+            <p class="about-motto">
+                "Eat. Sleep. Code. Repeat."
+            </p>
+        </div>
+
+
+        <!-- RIGHT: GAMING HOBBIES CAROUSEL -->
+        <div class="about-box gaming-hobbies">
+            <h3>Gaming <span>Hobbies</span></h3>
+
+            <div class="game-carousel">
+
+                <button class="game-arrow"
+                        id="prevGame"
+                        type="button"
+                        aria-label="Previous game">
+                    &#10094;
+                </button>
+
+                <div class="game-display">
+
+                    <!-- GAME 1 -->
+                    <div class="game-slide active">
+                        <img src="mlbb.jfif"
+                             alt="Mobile Legends Bang Bang"
+                             class="game-image">
+                        <h4>MLBB</h4>
+                    </div>
+
+                    <!-- GAME 2 -->
+                    <div class="game-slide">
+                        <img src="roblox.jfif"
+                             alt="Roblox"
+                             class="game-image">
+                        <h4>Roblox</h4>
+                    </div>
+
+                    <!-- GAME 3 -->
+                    <div class="game-slide">
+                        <img src="coc.jfif"
+                             alt="Clash of Clans"
+                             class="game-image">
+                        <h4>Clash of Clans</h4>
+                    </div>
+
+                    <!-- GAME 4 -->
+                    <div class="game-slide">
+                        <img src="ros.jfif"
+                             alt="Rules of Survival"
+                             class="game-image">
+                        <h4>Rules of Survival</h4>
+                    </div>
+
+                </div>
+
+                <button class="game-arrow"
+                        id="nextGame"
+                        type="button"
+                        aria-label="Next game">
+                    &#10095;
+                </button>
+
+            </div>
+
+            <p class="game-counter" id="gameCounter">1 / 4</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="skills section" id="skills">
+    <h2 class="section-title">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+
+        <div class="skill">
+            <div class="skill-inner">
+
+                <div class="skill-front">
+                    <h3>HTML</h3>
+                    <img src="htmllogo.png" alt="HTML" class="skill-icon">
+                    <span>90%</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress html"></div>
+                    </div>
+                </div>
+
+                <div class="skill-back">
+                    <h3>HTML</h3>
+                    <p>
+                        I have a strong understanding of HTML.
+                        I can create structured web pages using
+                        different elements, tags, and layouts.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-inner">
+
+                <div class="skill-front">
+                    <h3>CSS</h3>
+                    <img src="csslogo.png" alt="CSS" class="skill-icon">
+                    <span>85%</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress css"></div>
+                    </div>
+                </div>
+
+                <div class="skill-back">
+                    <h3>CSS</h3>
+                    <p>
+                        I can design and style websites using
+                        colors, animations, transitions, layouts,
+                        and responsive designs.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-inner">
+
+                <div class="skill-front">
+                    <h3>Python</h3>
+                    <img src="pylogo.png" alt="Python" class="skill-icon">
+                    <span>60%</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress python"></div>
+                    </div>
+                </div>
+
+                <div class="skill-back">
+                    <h3>Python</h3>
+                    <p>
+                        I know the basics of Python programming,
+                        including variables, loops, functions,
+                        and conditional statements.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-inner">
+
+                <div class="skill-front">
+                    <h3>JavaScript</h3>
+                    <img src="jslogo.png" alt="JavaScript" class="skill-icon-java">
+                    <span>40%</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress javascript"></div>
+                    </div>
+                </div>
+
+                <div class="skill-back">
+                    <h3>JavaScript</h3>
+                    <p>
+                        I understand the basics of JavaScript
+                        and can use it to add interactivity,
+                        events, and dynamic features to websites.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <section class="projects section" id="projects">
+        <h2 class="section-title">My <span>Projects</span></h2>
+            <p class="projects-description">
+                Explore my projects and see what I've learned and created
+                as a BSIT student. Each project represents my progress,
+                creativity, and growing skills in web development and html coding skills.
+            </p>
+        <div class="projects-container">
+            <div class="project-card">
+                <a href="basiclinkingpage/onepage.html">
+                <div class="project-image">
+                    <img src="screenshootlink.png" alt="HTML basic linking page screenshot">
+                </div>
+                <h3>HTML basic linking page</h3>
+                <p>
+                    A simple multi-page website built entirely with basic
+                    HTML code. The main goal of this project was to practice
+                    how web pages connect to one another using click links,
+                    menus, and organized folder structures.
+                </p>
+            </a>
+            </div>
+
+            <div class="project-card">
+                <a href="index.html">
+                <div class="project-image">
+                    <img src="screenshoothome.png" alt="Portfolio website screenshot">
+                </div>
+                <h3>My Portfolio Website</h3>
+                <p>
+                    My personal portfolio website built from scratch using
+                    clean HTML and CSS. This project showcases my coding
+                    journey, my professional profile, and my personal
+                    interests through smooth multi-page navigation.
+                </p>
+            </a>
+            </div>
+        </div>
+    </section>
+
+
+<footer id="contact">
+    <div class="contact-container">
+
+        <div class="contact-heading">
+            <h2><span>Contact</span> Me</h2>
+            <h3>Let's <span>Work</span> Together</h3>
+            <p>Have a question or a project in mind? Send me a message!</p>
+        </div>
+
+        <div class="contact-content">
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h3>Get in Touch</h3>
+
+                <p>
+                    <strong>Email:</strong><br>
+                    <a href="https://mail.google.com/mail/?view=cm&to=joshjeremy027@gmail.com"
+                       target="_blank" rel="noopener noreferrer">
+                        joshjeremy027@gmail.com
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Facebook:</strong><br>
+                    <a href="https://www.facebook.com/eremyjosh.parra.9"
+                       target="_blank" rel="noopener noreferrer">
+                        Jeremy Josh Aguidan Parra
+                    </a>
+                </p>
+
+                <p>
+                    <strong>Phone:</strong><br>
+                    <a href="tel:09243880193">0924-388-0193</a>
+                </p>
+            </div>
+
+            <!-- Message Form -->
+            <div class="contact-form">
+                <h3>Send Me a Message</h3>
+
+                <form action="https://mail.google.com/mail/"
+                      method="get"
+                      target="_blank"
+                      onsubmit="sendToGmail(event)">
+
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="name">Your Name</label>
+                            </td>
+                            <td>
+                                <input type="text" id="name"
+                                       placeholder="Enter your name"
+                                       required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="email">Your Email</label>
+                            </td>
+                            <td>
+                                <input type="email" id="email"
+                                       placeholder="Enter your email"
+                                       required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="subject">Subject</label>
+                            </td>
+                            <td>
+                                <input type="text" id="subject"
+                                       placeholder="Enter subject"
+                                       required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="message">Message</label>
+                            </td>
+                            <td>
+                                <textarea id="message"
+                                          placeholder="Write your message here..."
+                                          rows="5"
+                                          required></textarea>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<script>
+function sendToGmail(event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const subject = document.getElementById("subject").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    const recipient = "joshjeremy027@gmail.com";
+
+    const body =
+        "Name: " + name + "\n" +
+        "Email: " + email + "\n\n" +
+        "Message:\n" + message;
+
+    const gmailURL =
+        "https://mail.google.com/mail/?view=cm" +
+        "&to=" + encodeURIComponent(recipient) +
+        "&su=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+
+    window.open(gmailURL, "_blank");
+}
+</script>
+
+
+        <div class="copyright">
+            <p>&copy; 2026 Jeremy's Portfolio. All rights reserved.</p>
+        </div>
+
+
+<script>
+    const gameSlides = document.querySelectorAll(".game-slide");
+    const prevGame = document.getElementById("prevGame");
+    const nextGame = document.getElementById("nextGame");
+    const gameCounter = document.getElementById("gameCounter");
+
+    let currentGame = 0;
+
+    function showGame(index) {
+        gameSlides[currentGame].classList.remove("active");
+
+        currentGame = (index + gameSlides.length) % gameSlides.length;
+
+        gameSlides[currentGame].classList.add("active");
+
+        gameCounter.textContent =
+            (currentGame + 1) + " / " + gameSlides.length;
+    }
+
+    nextGame.addEventListener("click", function () {
+        showGame(currentGame + 1);
+    });
+
+    prevGame.addEventListener("click", function () {
+        showGame(currentGame - 1);
+    });
+</script>
+</body>
+</html>
