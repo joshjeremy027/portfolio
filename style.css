@@ -756,6 +756,35 @@ header {
     text-decoration: underline;
 }
 
+/* GITHUB CONTACT ICON */
+
+.github-icon {
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+/* FB CONTACT ICON */
+
+.fb-icon {
+    width: 23px;
+    height: 23px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+/* email CONTACT ICON */
+
+.email-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+
+
 /* MESSAGE TABLE */
 .contact-form table {
     width: 100%;
